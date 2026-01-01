@@ -1,0 +1,11 @@
+#빌드 결과물
+dist/
+
+#환경 변수
+.env
+
+#라이브러리
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+.pnpm-debug.log*
