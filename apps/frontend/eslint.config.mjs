@@ -6,7 +6,6 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
 
-  ...shared,
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
