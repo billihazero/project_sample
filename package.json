@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently -n frontend,mcp -c green,blue \"pnpm --filter ./apps/frontend dev\" \"pnpm --filter ./apps/mcp dev\""
+    "dev": "concurrently -n frontend,mcp -c green,blue \"pnpm --filter ./apps/frontend dev\" \"pnpm --filter ./apps/mcp start:dev\""
   },
   "keywords": [],
   "author": "",
